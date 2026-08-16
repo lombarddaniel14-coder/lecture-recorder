@@ -1,0 +1,14 @@
+{
+  "hotkey": "ctrl+alt+r",
+  "model_size": "small.en",
+  "compute_type": "int8",
+  "storage_root": "C:\\Users\\Daniel\\OneDrive - Bentley University\\Claude Stuff\\School\\Lectures",
+  "classes": [],
+  "anthropic_api_key": "",
+  "claude_model": "claude-opus-4-8",
+  "sample_rate": 16000,
+  "chunk_minutes": 5,
+  "noise_reduction": true,
+  "keep_chunks": false,
+  "language": "en"
+}
