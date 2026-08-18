@@ -31,7 +31,10 @@ DEFAULTS = {
 
     # Where finished lectures get filed:
     #   <storage_root>\<Class>\<YYYY-MM-DD>\
-    "storage_root": r"C:\Users\Daniel\OneDrive - Bentley University\Claude Stuff\School\Lectures",
+    # Override with the LECTURE_STORAGE_ROOT environment variable.
+    "storage_root": os.environ.get(
+        "LECTURE_STORAGE_ROOT", str(Path.home() / "Lectures")
+    ),
 
     # Remembered class names, shown in the dropdown when a recording stops.
     "classes": [],

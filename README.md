@@ -78,7 +78,7 @@ still processing.
 ## Where your lectures end up
 
 ```
-C:\Users\Daniel\OneDrive - Bentley University\Claude Stuff\School\Lectures\
+<VAULT_ROOT>\School\Lectures\
     ACC 131\
         2026-09-08\
             notes.md              <- study notes: outline, key concepts,

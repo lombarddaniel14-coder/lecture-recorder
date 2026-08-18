@@ -1,4 +1,4 @@
-"""Turn a raw transcript into the two documents Daniel actually reads.
+"""Turn a raw transcript into the two documents the user actually reads.
 
   1. notes.md            - structured study notes (summarized, organized)
   2. transcript-clean.md - the FULL transcript, just made readable:
